@@ -1,6 +1,7 @@
 package org.example;
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
@@ -25,6 +26,8 @@ public class Main {
             System.out.println("Die differenz in Tagen beträgt: " + difInDays(localDateTime, fixDateTime) + " Tage.");
         }
 
+        LocalTime time = LocalTime.of(12,23);
+        System.out.println(time);
 
     }
 
